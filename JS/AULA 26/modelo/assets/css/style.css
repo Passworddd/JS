@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+/** Variavel global para cor */
+:root {
+    --primary-color: teal;
+    --primary-color-dark: black;
+}
+
+/**  Seletor de todas as tag*/
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+   
+body{
+        margin: 0;
+        padding: 0;
+        background: var(--primary-color);
+        font-family: 'Open sans', sans-serif;
+        font-size: 1.3em;
+        line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+form .geral {
+    border: solid;
+}
+
+form input, form label,form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button {
+    border: none;
+    background: var( --primary-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+}
+form button.hover {
+    background: var(--primary-color-dark);
+}
+
+section {
+    position: relative;
+    text-align: center;
+    box-shadow: black;
+    padding-top: 10px;
+}
+
+section .tabela-1 {
+    display: block auto;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin: auto;
+    border-right: 1px solid var(--primary-color);
+    background-color: blueviolet rgba(red, green, blue, alpha);
+
+}
+section .tabela-2 {
+    display: block auto;
+    width: 50%;
+    margin-bottom: 10px;
+    text-align: center;
+    float: right;
+    position: relative;
+    margin: auto; 
+    border-left: solid var(--primary-color);
+}
+
+section .resultado {
+    background-color: red           ;
+}

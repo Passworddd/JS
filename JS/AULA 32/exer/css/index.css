@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.campo1{
+    
+    max-width: 640px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1px;
+
+}
+
+.campo1 div p {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+.campo1 div {
+    text-align: center;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
